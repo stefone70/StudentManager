@@ -8,8 +8,8 @@ import java.util.List;
 
 @Document(collection = "Students")
 public class Student {
-   // @Id
-    //private String id;
+    @Id
+    private String id;
 
     @Field("name")
     private String name;
@@ -31,13 +31,13 @@ public class Student {
     }
 
     // Getters and Setters
-   /* public String getId() {
+   public String getId() {
         return id;
     }
 
     public void setId(String id) {
         this.id = id;
-    }*/
+    }
 
     public String getName() {
         return name;
