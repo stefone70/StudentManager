@@ -8,6 +8,7 @@ import java.util.List;
 
 @Document(collection = "Students")
 public class Student {
+  // entités
     @Id
     private String id;
 
@@ -20,10 +21,10 @@ public class Student {
     @Field("specialities")
     private List<String> specialities;
 
-    // Constructors
+    // Constructors vide
     public Student() {
     }
-
+// constructeur
     public Student(String name, String firstName, List<String> specialities) {
         this.name = name;
         this.firstName = firstName;
