@@ -30,7 +30,7 @@ public class StudentController {
     public Student createStudent(@RequestBody Student student) {
         return studentRepository.save(student);
     }*/
-
+// Mapping
     @GetMapping("/students")
     public String listStudents(Model model) {
         List<Student> students = studentRepository.findAll();
