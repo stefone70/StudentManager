@@ -1,13 +1,8 @@
 package org.example.studentmanager;
 
-import org.example.studentmanager.model.Student;
-import org.example.studentmanager.repository.StudentRepository;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
-import org.springframework.dao.DataAccessException;
 
 import java.util.Arrays;
 import java.util.List;

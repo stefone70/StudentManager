@@ -1,6 +1,6 @@
-package org.example.studentmanager.repository;
+package org.example.studentmanager;
 
-import org.example.studentmanager.model.Student;
+import org.example.studentmanager.Student;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface StudentRepository extends MongoRepository<Student, String> {

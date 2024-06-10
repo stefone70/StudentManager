@@ -1,7 +1,5 @@
-package org.example.studentmanager.controller;
+package org.example.studentmanager;
 
-import org.example.studentmanager.model.Student;
-import org.example.studentmanager.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
